@@ -1,7 +1,6 @@
 # Build directories
 build/
 cmake-build-*/
-docs/
 
 # C++ build artifacts
 *.obj
@@ -19,3 +18,5 @@ CMakeCache.txt
 CMakeFiles/
 cmake_install.cmake
 Makefile
+out/
+CMakeSettings.json
