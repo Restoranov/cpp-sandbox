@@ -1,9 +1,18 @@
 #include <iostream>
+#include <windows.h>
+
+#include "greeting.h"
 
 int main()
 {
-	std::cout << "Hello,C++!\n";
-	std::cin.get();
+    SetConsoleOutputCP(CP_UTF8);
 
-	return 0;
+    std::cout << "Hello,C++! Let's get started!\n";
+
+    Greeting firstGreeting;
+    firstGreeting.SayHello();
+
+    std::cin.get();
+
+    return 0;
 }
